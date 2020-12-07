@@ -1,0 +1,26 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  plugins = [
+    "angular",
+    "ember",
+    "vue",
+    "angularjs",
+    "react",
+    "meteor"
+  ]
+  environment = [
+    "mocha",
+    "mongo",
+    "nodejs",
+    "browser",
+    "jasmine",
+    "jquery",
+    "jest"
+  ]
+  style_guide = "airbnb"
+  dialect = "flow"
